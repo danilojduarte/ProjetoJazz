@@ -53,6 +53,7 @@
     color: var(--color-black);
     display: block;
     font-size: 1.25rem;
+    font-weight: bold;
     padding: .75rem 1rem;
     max-width: 14rem;
     text-align: center;
@@ -211,4 +212,6 @@ footer nav a {
     border: 2px solid var(--color-black);
     box-sizing: 4px 4px 0 var(--color-black);
     font-size: 1.5rem;
+    padding: .5rem;
+    width: 100%;
 }
