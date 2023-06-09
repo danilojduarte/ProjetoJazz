@@ -210,7 +210,7 @@ footer nav a {
 
 .news-form input {
     border: 2px solid var(--color-black);
-    box-sizing: 4px 4px 0 var(--color-black);
+    box-shadow: 4px 4px 0 var(--color-black);
     font-size: 1.5rem;
     padding: .5rem;
     width: 100%;
