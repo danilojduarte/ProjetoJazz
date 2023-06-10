@@ -248,6 +248,9 @@ footer nav a {
 }
 
 @media screen and (min-width: 72rem) {
+    h1, h2 {
+        font-size: 4rem;
+    }
     .container {
         display: flex;
         align-items: center;
@@ -256,5 +259,24 @@ footer nav a {
     }
     .container.row-reverse {
         flex-direction: row-reverse;
+    }
+    .about-colum {
+        flex: 2;
+    }
+    .about-colum p {
+        font-size: 1.25rem;
+        max-width: 16rem;
+    }
+    footer nav {
+        flex: 1;
+    }
+    .news-form {
+        flex: 3;
+    }
+}
+
+@media screen and (min-width: 80rem) {
+    .container{
+    max-width: 90rem;
     }
 }
