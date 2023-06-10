@@ -215,3 +215,12 @@ footer nav a {
     padding: .5rem;
     width: 100%;
 }
+
+/* Responsividade */
+
+@media screen and (min-width: 40rem) {
+    header nav {
+        display: block;
+        text-align: center;
+    }
+}
